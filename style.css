@@ -5,6 +5,26 @@
 
 }
 
+.custom-shape-divider-bottom-1718287248 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1718287248 svg {
+    position: relative;
+    display: block;
+    width: calc(176% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1718287248 .shape-fill {
+    fill: #3BB795;
+}
 
 
 .main {
@@ -12,6 +32,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    margin-top: 40px;
 
 
 
@@ -20,7 +41,7 @@
 .left {
     height: 500px;
     border: 1px solid black;
-    width: 550px;
+    width: 600px;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -28,6 +49,7 @@
 
 
 }
+
 .left h1{
     color: #3bb795;;
     margin-left: 170px;
