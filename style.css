@@ -4,8 +4,7 @@
     font-family: "Josefin Sans", sans-serif;
 
 }
-
-.custom-shape-divider-bottom-1718288027 {
+.custom-shape-divider-bottom-1718293970 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -15,14 +14,14 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1718288027 svg {
+.custom-shape-divider-bottom-1718293970 svg {
     position: relative;
     display: block;
-    width: calc(153% + 1.3px);
-    height: 170px;
+    width: calc(150% + 1.3px);
+    height: 118px;
 }
 
-.custom-shape-divider-bottom-1718288027 .shape-fill {
+.custom-shape-divider-bottom-1718293970 .shape-fill {
     fill: #3BB795;
 }
 
@@ -31,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
 
 }
 
@@ -38,29 +38,32 @@
     height: 450px;
     border: 1px solid black;
     width: 550px;
-    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 10px;
+
+
 
 
 }
 
-.left h1{
-    color: #3bb795;;
+.left h1 {
+    color: #3bb795;
+    
     margin-left: 170px;
     font-size: 35px;
 }
 
 .details {
     width: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 140px;
 
 
 }
-.details input{
+
+.details input {
     padding: 10px 90px;
     background-color: #f5f9f8;
     border: none;
@@ -73,13 +76,13 @@
 
 
 }
-.aggrement label{
+
+.aggrement label {
     margin-left: 15px;
 }
 
 .submit {
-    margin-top: 50px;
-    margin-left: 140px;
+    margin-top: 30px;
 
 }
 
@@ -90,25 +93,44 @@
     color: white;
     background-color: #3bb795;
     cursor: pointer;
+    margin-left: 200px;
 
 }
 
+.existacc {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.existacc button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    color: #3bb795;
+    cursor: pointer;
+
+}
+
+/* ---------------right------------- */
 .right {
     height: 450px;
+    margin-top: 10px;
     border: 1px solid black;
     width: 450px;
-    margin-top: 40px;
     background-color: #3bb795;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+
+
+
 
 }
-.right h1{
+
+.right h1 {
     margin-left: 50px;
     font-size: 40px;
 
@@ -128,5 +150,5 @@
     margin-top: 50px;
     margin-left: 50px;
 
-    
+
 }
