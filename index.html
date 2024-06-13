@@ -19,15 +19,15 @@
        <div class="left-text">
         <h1>Create  Account</h1>
         <div class="details">
-          <input type="text" placeholder="Username" onclick="Name()" />
-          <input type="text" placeholder="Email" onclick="Email()"/>
-          <input type="text" placeholder="Password" />
+          <input type="text" placeholder="Username" onchange="Username(this.value)" />
+          <input type="text" placeholder="Email" onchange="Email(this.value)"/>
+          <input type="text" placeholder="Password" onchange="Password(this.value)"/>
         </div>
         <div class="aggrement">
           <input type="checkbox" /><label>I read and agree to Terms & Conditions</label  >
         </div>
         <div class="submit">
-          <button>SIGN UP</button>
+          <button onclick="submit()">SIGN UP</button>
         </div>
        </div>
       </div>

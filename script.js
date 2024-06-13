@@ -1,22 +1,24 @@
 
 
 let username="";
-let age="";
-let address="";
-let contact="";
+let email="";
+let pasword="";
 
-Name = ()=>{
-
+Username = (a)=>{
+username=a;
 }
 
-Age = ()=>{
+Email = (a)=>{
+email=a;
+}
+Password =(a)=>{
+pasword=a;
+}
+submit =()=>{
+console.log(username);
+console.log(email);
 
+console.log(pasword);
 }
 
-Address = ()=>{
 
-}
-
-Contact = ()=>{
-
-}
