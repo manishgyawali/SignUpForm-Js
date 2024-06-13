@@ -5,7 +5,7 @@
 
 }
 
-.custom-shape-divider-bottom-1718287248 {
+.custom-shape-divider-bottom-1718288027 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -15,14 +15,14 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1718287248 svg {
+.custom-shape-divider-bottom-1718288027 svg {
     position: relative;
     display: block;
-    width: calc(176% + 1.3px);
-    height: 500px;
+    width: calc(153% + 1.3px);
+    height: 170px;
 }
 
-.custom-shape-divider-bottom-1718287248 .shape-fill {
+.custom-shape-divider-bottom-1718288027 .shape-fill {
     fill: #3BB795;
 }
 
@@ -31,21 +31,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    margin-top: 40px;
-
-
 
 }
 
 .left {
-    height: 500px;
+    height: 450px;
     border: 1px solid black;
-    width: 600px;
+    width: 550px;
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 
 }
@@ -97,7 +94,7 @@
 }
 
 .right {
-    height: 500px;
+    height: 450px;
     border: 1px solid black;
     width: 450px;
     margin-top: 40px;
