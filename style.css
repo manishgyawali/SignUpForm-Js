@@ -32,19 +32,18 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px;
+   
 
 }
 
 .left {
     height: 450px;
     border: 1px solid black;
-    width: 550px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-
-
 
 
 }
@@ -52,14 +51,14 @@
 .left h1 {
     color: #3bb795;
     
-    margin-left: 170px;
+    margin-left: 90px;
     font-size: 35px;
 }
 
 .details {
     width: 50%;
     margin-top: 30px;
-    margin-left: 140px;
+    margin-left: 50px;
 
 
 }
@@ -73,7 +72,7 @@
 
 .aggrement {
     margin-top: 50px;
-    margin-left: 140px;
+    margin-left: 50px;
 
 
 }
@@ -94,7 +93,7 @@
     color: white;
     background-color: #3bb795;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 100px;
 
 }
 
@@ -119,7 +118,7 @@
     height: 450px;
     margin-top: 10px;
     border: 1px solid black;
-    width: 450px;
+    width: 400px;
     background-color: #3bb795;
     color: white;
     display: flex;
@@ -133,8 +132,8 @@
 
 .right h1 {
     margin-left: 50px;
-    font-size: 40px;
-
+    /* font-size: 40px; */
+font-size: 2rem;
 
 }
 
@@ -156,5 +155,6 @@
 .emptyError{
     color: red;
     margin-top: 10px;
+    width: 250px;
  
 }
