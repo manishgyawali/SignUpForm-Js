@@ -9,6 +9,10 @@
     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     rel="stylesheet"
   />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
 </head>
 <body>
   <div class="custom-shape-divider-bottom-1718293970">
@@ -31,6 +35,8 @@
           <p class="emptyError" id="emailError"></p>
           <input type="password" placeholder="Password" onchange="Password(this.value)" />
           <p class="emptyError" id="passwordError"></p>
+          <input type="password" placeholder="Confirm Password" onchange="ConfirmPassword(this.value)" />
+          <p class="emptyError" id="confirmPasswordError"></p>
         </div>
         <div class="aggrement">
           <input type="checkbox" /><label>I read and agree to Terms & Conditions</label>
