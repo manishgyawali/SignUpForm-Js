@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Signup Form with Validation
 
@@ -52,5 +53,8 @@ These rules can be modified in the app.js file to suit your requirements.
 - HTML5: Markup language for structuring the form
 - CSS3: Styling the form and ensuring responsivenes
 - JavaScript: Implementing client-side validation
+=======
+# SignUpForm-Js
+>>>>>>> origin/main
 
 
