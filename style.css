@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
-
-}
-
-.custom-shape-divider-bottom-1718293970 {
+  }
+  
+  .custom-shape-divider-bottom-1718293970 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -13,149 +12,152 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1718293970 svg {
+  }
+  
+  .custom-shape-divider-bottom-1718293970 svg {
     position: relative;
     display: block;
     width: calc(150% + 1.3px);
     height: 118px;
-    
-}
-
-.custom-shape-divider-bottom-1718293970 .shape-fill {
-    fill: #3BB795;
-}
-
-
-.main {
+  }
+  
+  .custom-shape-divider-bottom-1718293970 .shape-fill {
+    fill: #3bb795;
+  }
+  
+  .main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
-   
-
-}
-
-.left {
-    height: 450px;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .left,
+  .right {
+    width: 100%;
+    max-width: 500px;
+    margin: 1px;
+    box-sizing: border-box;
     border: 1px solid black;
-    width: 500px;
+  }
+  
+  .left {
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-
-
-}
-
-.left h1 {
+    /* height: 445px; */
+  }
+  
+  .left-text {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .left h1 {
     color: #3bb795;
-    
-    margin-left: 90px;
     font-size: 35px;
-}
-
-.details {
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 50px;
-
-
-}
-
-.details input {
-    padding: 10px 90px;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    width: 100%;
+  }
+  
+  .details input {
+    width: calc(100% - 20px);
+    padding: 10px;
     background-color: #f5f9f8;
     border: none;
     margin-top: 20px;
-}
-
-.aggrement {
-    margin-top: 50px;
-    margin-left: 50px;
-
-
-}
-
-.aggrement label {
-    margin-left: 15px;
-}
-
-.submit {
-    margin-top: 30px;
-
-}
-
-.submit button {
-    padding: 13px 50px;
+  }
+  
+  .aggrement {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .aggrement label {
+    margin-left: 10px;
+  }
+  
+  .submit {
+    margin-top: 20px;
+  }
+  
+  .submit button {
+    width: calc(100% - 20px);
+    padding: 13px;
     border-radius: 30px;
     border: none;
     color: white;
     background-color: #3bb795;
     cursor: pointer;
-    margin-left: 100px;
-
-}
-
-.existacc {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    gap: 10px;
-}
-
-.existacc button {
+  }
+  
+  .existacc {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .existacc button {
     border: none;
     background-color: white;
     font-weight: bold;
     color: #3bb795;
     cursor: pointer;
-
-}
-
-/* ---------------right------------- */
-.right {
-    height: 450px;
-    margin-top: 10px;
-    border: 1px solid black;
-    width: 400px;
+  }
+  
+  .right {
     background-color: #3bb795;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 426px;
 
-
-
-
-}
-
-.right h1 {
-    margin-left: 50px;
-    /* font-size: 40px; */
-font-size: 2rem;
-
-}
-
-
-.right p {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    width: 290px;
-    margin-left: 50px;
-}
-
-.right h2 {
-    margin-top: 50px;
-    margin-left: 50px;
-
-
-}
-.emptyError{
+  }
+  
+  .right h1 {
+    font-size: 2rem;
+  }
+  
+  .right p {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .right h2 {
+    margin-top: 20px;
+  }
+  
+  /* Error message styling */
+  .emptyError {
     color: red;
     margin-top: 10px;
-    width: 250px;
- 
-}
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Responsive styles */
+  @media (min-width: 600px) {
+    .left,
+    .right {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .main {
+      flex-wrap: nowrap;
+    }
+    .left,
+    .right {
+      width: 50%;
+      margin: 10px;
+    }
+  }
+  
