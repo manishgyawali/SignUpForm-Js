@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Signup Form with Validation
 
@@ -18,7 +18,7 @@ A brief description of what this project does and who it's for
 
 ## Demo
 
-You can see a live demo of the signup form here.
+You can see a live demo of the signup form [here](https://manishgyawali.github.io/SignUpForm-Js/).
 
 
 
