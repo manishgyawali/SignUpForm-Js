@@ -54,7 +54,7 @@ These rules can be modified in the app.js file to suit your requirements.
 - CSS3: Styling the form and ensuring responsivenes
 - JavaScript: Implementing client-side validation
 
-  ## Screenshots
+## Screenshot
   
 
 ![Screenshot (92)](https://github.com/manishgyawali/SignUpForm-Js/assets/104677087/11ade6b4-8bfe-495f-b7e2-552a3f61a925)
